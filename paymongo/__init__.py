@@ -25,6 +25,7 @@ from paymongo.api_resources.entities.payment_intent_entity import PaymentIntentE
 from paymongo.api_resources.entities.payment_method_entity import PaymentMethodEntity
 from paymongo.api_resources.entities.refund_entity import RefundEntity
 from paymongo.api_resources.entities.webhook_entity import WebhookEntity
+from paymongo.api_resources.entities.checkout_session_entity import CheckoutSessionEntity
 
 from paymongo.api_resources.services.base_service import BaseService
 from paymongo.api_resources.services.checkout_session import CheckoutSession
